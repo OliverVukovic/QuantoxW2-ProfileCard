@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: auto;
     font-size: 18px;
-    display:flex;
+    /*display:flex;*/
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -78,7 +78,7 @@ img {
 } 
 
 .content-2 {
-    position: absolute;
+    position: fixed;
     width: 450px;
     height: 95px;
     border-bottom: 1px;
@@ -134,3 +134,25 @@ span {
     color: hsl(0, 0%, 59%);
     font-weight: 400;
 }
+
+/* responsive */
+
+@media (max-width:375px) {
+    .pattern-top {
+        height: 375px;
+        width: 375px;
+        top: -50px;
+        left: -50px;
+    }    
+
+    .pattern-bottom {
+        height: 375px;
+        width: 375px;
+        top: 52vh;
+        left: 53vw
+    }
+
+    .container {
+        width: 100%;
+    }
+}    
