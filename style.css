@@ -116,3 +116,21 @@ img {
     font-size: 15px;
     text-align: center;
 }
+
+h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+
+p {
+    color:hsl(0, 0%, 59%);   
+    font-weight: 400;
+    text-align: center;
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
