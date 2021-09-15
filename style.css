@@ -68,13 +68,16 @@ body {
 } 
 
 .content-2 {
-    height: 150px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: white;
+    position: absolute;
+    width: 450px;
+    height: 95px;
+    border-bottom: 1px;
+    border-bottom-style: inset;
+    top: 70%;
+    left: auto;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .content-3 {
