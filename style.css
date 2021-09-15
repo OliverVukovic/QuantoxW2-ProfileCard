@@ -41,9 +41,18 @@ body {
 }
 
 .contenier {
-    position: relative;
+    background-color: white;
     border-radius: 25px;
-    box-shadow: 0px 0px 14px 0px darkgrey);
+    position: fixed;
+    top: 25%;
+    left: 40vw;
+    right: 40vw;
+    margin: -25px -25% -25% -25px;
+    width: 450px;
+    height: 500px;  
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-direction: column;
 }
 
 .content-1 {
