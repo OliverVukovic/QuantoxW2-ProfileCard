@@ -1,21 +1,21 @@
-*{
-    box-sizing: border-box;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    position: relative;
     background-color: hsl(185, 75%, 39%);
-    font-family: 'Kumbh Sans', sans-serif;
     width: 100%;
     height: auto;
-    font-size: 18px;
-    /*display:flex;*/
+    margin: 0px;
+    position: relative;
+    font-family: 'Kumbh Sans', sans-serif;
     box-sizing: border-box;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    display: flex;
 }
 
 .pattern-top {
@@ -40,7 +40,7 @@ body {
     left: 53vw
 }
 
-.contenier {
+.container {    
     background-color: white;
     border-radius: 25px;
     position: fixed;
@@ -78,7 +78,7 @@ img {
 } 
 
 .content-2 {
-    position: fixed;
+    position: absolute;
     width: 450px;
     height: 95px;
     border-bottom: 1px;
@@ -154,5 +154,5 @@ span {
 
     .container {
         width: 100%;
-    }
+    }   
 }    
