@@ -55,6 +55,16 @@ body {
     flex-direction: column;
 }
 
+img { 
+    width: 145px;
+    border: 8px solid transparent;
+    border-radius: 50%;
+    border-color: white;
+    margin-top: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+ }
+
 .content-1 {
     background-image: url("images/bg-pattern-card.svg");
     border-top-left-radius: 25px;
