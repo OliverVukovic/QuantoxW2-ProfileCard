@@ -13,9 +13,17 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
     box-sizing: border-box;
     overflow: hidden;
-    align-items: center;
-    justify-content: center;
+   /* align-items: center; 
+    justify-content: center; */
+
+}
+
+.container {
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .pattern-top {
@@ -40,7 +48,7 @@ body {
     left: 53vw
 }
 
-.container {    
+.profile-card {    
     background-color: white;
     border-radius: 25px;
     position: fixed;
@@ -53,6 +61,7 @@ body {
     box-sizing: border-box;
     overflow: hidden;
     flex-direction: column;
+    max-width: 450px;
 }
 
 img { 
@@ -152,7 +161,7 @@ span {
         left: 53vw
     }
 
-    .container {
+    .profile-card {
         width: 100%;
     }   
 }    
