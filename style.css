@@ -24,7 +24,6 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
-    position: relative;
 }
 
 .pattern-top {
@@ -142,12 +141,12 @@ span {
     }
 
     .profile-card {
-        width: 320px;
+        width: 300px;
     }
     .content-1 {
-        width: 320px;
+        width: 300px;
     }
     .content-2 {
-        width: 320px;
+        width: 300px;
     }
 }    
