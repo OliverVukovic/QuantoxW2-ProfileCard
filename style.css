@@ -13,10 +13,6 @@ body {
     margin: 0px;
     position: relative;
     font-family: 'Kumbh Sans', sans-serif;
-<<<<<<< HEAD
-=======
-    font-weight: 400;
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
     box-sizing: border-box;
     overflow: hidden;    
 }
@@ -28,10 +24,6 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
-<<<<<<< HEAD
-=======
-    position: relative;
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
 }
 
 .pattern-top {
@@ -41,11 +33,7 @@ body {
     background-size: contain;
     height: 978px;
     width: 978px;
-<<<<<<< HEAD
     bottom: 38vh;
-=======
-    bottom: 40vh;
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
     right: 52vw;
 }
 
@@ -56,28 +44,17 @@ body {
     background-size: contain;
     height: 978px;
     width: 978px;
-<<<<<<< HEAD
     top: 54vh;
     left: 47vw;
-=======
-    top: 52vh;
-    left: 50vw;
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
 }
 
 .profile-card {    
     background-color: white;
     border-radius: 25px;
     position: relative;
-<<<<<<< HEAD
     width: 350px;
     height: 400px;  
     box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.50);
-=======
-    width: 375px;
-    height: 400px;  
-    flex-direction: column;
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
 }
 
 img { 
@@ -85,11 +62,7 @@ img {
     border: 7px solid transparent;
     border-radius: 50%;
     border-color: white;
-<<<<<<< HEAD
     margin-top: 25%;
-=======
-    margin-top: 24%;
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
  }
 
 .content-1 {
@@ -97,37 +70,19 @@ img {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     position: relative;
-<<<<<<< HEAD
     width: 350px;
-=======
-    width: 375px;
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
     height: 150px;  
     text-align: center;
 } 
 
 .content-2 {
     position: absolute;
-<<<<<<< HEAD
     width: 350px;
-=======
-    width: 375px;
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
     height: 80px;
     border-bottom: 1px;
     border-bottom-style: inset;
     top: 71%;
-<<<<<<< HEAD
     margin-top: -50px;
-=======
-    left: auto;
-    margin-top: -50px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.content-3 {
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
 }
 
 .textleft {
@@ -140,20 +95,12 @@ img {
     position: absolute;
     bottom: 30px;
     width: 100%;
-<<<<<<< HEAD
-=======
-    text-align: center;
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
 }
 
 .textright {
     position: absolute;
     bottom: 30px;
     right: 60px;    
-<<<<<<< HEAD
-=======
-    text-align: center;
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
 }
 
 h2 {
@@ -173,10 +120,7 @@ p {
 span {
     color: hsl(0, 0%, 59%);
     font-weight: 400;
-<<<<<<< HEAD
     font-size: 17px;
-=======
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
 }
 
 /* responsive */
@@ -196,7 +140,6 @@ span {
         left: 53vw
     }
 
-<<<<<<< HEAD
     .profile-card {
         width: 290px;
     }
@@ -206,28 +149,4 @@ span {
     .content-2 {
         width: 290px;
     }
-=======
-   /* .container {
-        width: auto;;
-    }   
-
-    .profile-card {
-        width: 70%;
-    }
-    .content-1 {
-        width: auto;
-    }
-    img {
-        width: 100px;
-        position: relative;
-    }
-
-    .content-2 {
-        width: auto;
-        text-align: center;
-    }
-    .content-3 {
-        width: auto;
-    }*/
->>>>>>> 46bcdba98720c74364552ca7c3e2f8608f8bd6e3
 }    
